@@ -1,0 +1,37 @@
+****************************************************************RESUMO DE COMANDOS GIT***********************************************************************
+
+# Discente: Diego Moreira Silva
+# Docentes: Gilberto Queiroz e Thales Korting
+# Disciplina: SER-347
+
+1. Instalação do git no computador
+- Para fazer a instalação do git no computador foi baixado o instalador para meu computador, no meu OS.
+
+2. Clone do repositório 
+- Antes de clonar o repositório foi necessário criar uma pasta. Nesta estará os arquivos necessários para a atividade. Em seguida foi utilizado o comando no Git Bash: "git clone https://github.com/silvamoreirasilva/ser-347"
+- Dentro da pasta "ser-347" estão os arquivos ".git ..gitignore LICENSE e README.md". Cada um deles apresenta uma característica:
+* .git contém informações da estrutura.
+* .gitignore arquivo de texto comum. Foi escolhido um template para repositório para linguagem baseada em Python.
+* LICENSE contém uma declaração, baseada no template com a licença MIT.
+* README.md texto utilizando a linguagem Markdown.
+
+3. Verificação do status do repositório
+- Essa função apresenta possíveis modificações do repositório, bem como ele se encontra.
+
+4. Modificar um arquivo no repositório
+- Ao modificar o conteúdo da pasta README.md, o comando "git status" acusou uma modificação do arquivo.
+- Para reverter as modificações foi dado o comando "git checkout --README.md", em seguida o comando "git status".
+- Para salvar todas as modificações feitas no arquivo é necessário dar o comando "git commit -m".
+
+5. Sincronizando sua cópia local com o repositório remoto 
+- Nesta etapa foi realizada a sincronização do repositório remoto, que se encontra no GitHub.
+- Antes de sincronizar é necessário utilizar o comando "git pull" para se certificar de que a cópia esteja atualizada juntamente com a remota.
+- Em seguida, para sincronizar os arquivos do GitHub com a pasta local basta efetuar o comando "git push". Neste comando será necessário validar o usuário e a senha do GitHub.
+
+6. Adicionar um arquivo ao repositório 
+- Foi criado um arquivo já pronto, disponível no site da disciplina, denominado "factorial.py", seguido do comando "git status".
+- Após este comando, foi adicionado ao repositório o arquivo, por meio do comando "git add factorial.py". Confirmando com o comando "git commit -m "Adicionando uma função para cálculo do fatorial".
+- Logo em seguida, o comando "git status" atualizará  se realmente o arquivo foi adicionado. O comando novamente pedirá para confirmar as credenciar (usuário e senha).
+
+7. Adicionando um novo arquivo ao repositório (exercício 4)
+-Foi criado um arquivo com a extensão ".txt" com os passos concluídos no git, com o nome de "comandos realizados.txt" com os passos realizados no ponto 6.
